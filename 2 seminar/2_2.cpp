@@ -2,7 +2,7 @@
 
 unsigned long long creator(unsigned long long number, char symbol){
     if (symbol >= '0' and symbol <= '9'){
-        number = number * 10 + symbol - 48;
+        number = number * 10 + symbol - '0';
     }
     return number;
 }
